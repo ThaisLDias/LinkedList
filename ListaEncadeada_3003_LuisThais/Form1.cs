@@ -14,49 +14,53 @@ namespace ListaEncadeada_3003_LuisThais
     {
 
         Element father = new Element();
-        int click = 0;
-        int MAX;
+        int count = 0;
         public Form1()
         {
             InitializeComponent();
-            father.value = 8;
+        }
+
+        public Element FindElement(Element b, int c)
+        {
+            while (b.nextValue != null && c > count)
+            {
+                b = b.nextValue;
+                count++;
+            }
+            return b; 
+
         }
 
         public Element FindLast(Element v) 
         {
-            if (v.nextValue != null)
+            while (v.nextValue != null)
             {
-                FindLast(v.nextValue);
+               v = v.nextValue;
+               count++;
             }
             return v;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MAX = Convert.ToInt32(textBox1.Text);
-            for (int i = 0; i <= MAX; i++)
-            {
-                Element a = new Element();
-
-                if (i == 0)
-                {
-                    a.value = father.value + 2;
-                    father.nextValue = a;
-                }
-                else {
-                    a.value = father.nextValue.value + 2;
-                    father.nextValue.nextValue = a;            
-                }
-            }
-            Console.WriteLine(father);
-            Console.WriteLine(father.nextValue);
-            Console.WriteLine(father.nextValue.nextValue);
-
+            Random random = new Random();
+            father.value = Convert.ToInt32(random.Next(0,100));
+            label1.Text = father.value.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Text = FindLast(father.nextValue).value.ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            Element a = new Element();
+            a.value = Convert.ToInt32(random.Next(0,100));
+            FindLast(father).nextValue = a;
+            label1.Text += a.value.ToString();
+        }
+
     }
 }

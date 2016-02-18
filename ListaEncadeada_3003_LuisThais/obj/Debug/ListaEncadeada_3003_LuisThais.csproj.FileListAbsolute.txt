@@ -19,3 +19,12 @@ E:\ListaEncadeada_3003_LuisThais\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEn
 C:\Users\luis.silva\Desktop\ListaEncadeada_3003_LuisThais\ListaEncadeada_3003_LuisThais\bin\Debug\ListaEncadeada_3003_LuisThais.exe.config
 C:\Users\luis.silva\Desktop\ListaEncadeada_3003_LuisThais\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.exe
 C:\Users\luis.silva\Desktop\ListaEncadeada_3003_LuisThais\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.pdb
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\bin\Debug\ListaEncadeada_3003_LuisThais.exe.config
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.exe
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.pdb
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\bin\Debug\ListaEncadeada_3003_LuisThais.exe
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\bin\Debug\ListaEncadeada_3003_LuisThais.pdb
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.csprojResolveAssemblyReference.cache
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.Form1.resources
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.Properties.Resources.resources
+C:\Users\luis.silva\Desktop\GitHub\LinkedList\ListaEncadeada_3003_LuisThais\obj\Debug\ListaEncadeada_3003_LuisThais.csproj.GenerateResource.Cache
